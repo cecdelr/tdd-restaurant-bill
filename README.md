@@ -13,27 +13,27 @@ Practice good Test Driven Development (TDD) by writing tests for each component 
 - Clarify
 - Repeat
 
-### Resources
-
-[Automated Tests - Ada Textbook Lesson](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/08-intro-to-automated-tests.md) (Refer to Spec Style)
+Refer to the lesson [Automated Tests](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/08-intro-to-automated-tests.md).
 
 
 ## The Program
-We are going to build a RestaurantBill bill class that will
+We are going to build a ```RestaurantBill``` class that will
 - Keep track of items we order
 - Give us a bill with the items' total cost, plus tax
 - Let us add a tip
 - See the final bill (With item's total cost, tax and tip)
 
 
-This class will _not_ be using any user input.
+This class will __not__ be using any user input.
 
 
 
 ## Get Started
 
 
-After writing each test, only uncomment the lines in restaurant_bill.rb that are needed to pass that test.
+Start working in restaurant_bill_spec.rb by setting up a ```describes``` block.
+
+Write a test, run rake, then uncomment only the code that is needed to pass that test in restaurant_bill.rb. Get that test to pass before moving on to the next one. Your first tests should follow the order of the list below. 
 
 
 - Test that a new instance of Bill is created with ```RestaurantBill.new```
