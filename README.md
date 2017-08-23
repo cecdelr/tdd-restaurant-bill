@@ -13,7 +13,7 @@ Practice good Test Driven Development (TDD) by writing tests for each component 
 - Clarify
 - Repeat
 
-Refer to the lesson [Automated Tests](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/08-intro-to-automated-tests.md).
+Refer to the lesson [Automated Tests](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/intro-to-automated-tests.md).
 
 
 ## The Program
@@ -52,4 +52,4 @@ Now add your own tests and code for the following features
 
 
 
-**If you're feeling stuck**, refer to ['What should I test'](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/08-intro-to-automated-tests.md#what-should-i-test).
+**If you're feeling stuck**, refer to ['What should I test'](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/intro-to-automated-tests.md#what-should-i-test).
