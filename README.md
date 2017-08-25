@@ -33,10 +33,10 @@ This class will __not__ be using any user input.
 
 Start working in restaurant_bill_spec.rb by setting up a ```describes``` block.
 
-Write a test, run rake, then uncomment only the code that is needed to pass that test in restaurant_bill.rb. Get that test to pass before moving on to the next one. Your first tests should follow the order of the list below. 
+Write a test, run rake, then uncomment only the code that is needed to pass that test in restaurant_bill.rb. Get that test to pass before moving on to the next one. Your first tests should follow the order of the list below.
 
 
-- Test that a new instance of Bill is created with ```RestaurantBill.new```
+- Test that a new instance of RestaurantBill is created with ```RestaurantBill.new```
 - Test that RestaurantBill is initialized with the attribute ```ordered_items```, an empty array.
 - Test the method ```order_item```, it should expect that ```ordered_items``` includes the new item.
 - Test that if the ``order_item`` method is called 3 times, there are 3 elements in the ``` ordered_items``` array.
